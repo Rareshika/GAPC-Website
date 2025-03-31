@@ -19,7 +19,9 @@ export const metadata: Metadata = {
     title: "Groningen Algorithmic Programming Competition 2025",
     description:
       "The 2025 edition of the Groningen Algorithmic Programming Competition",
-    images: ["https://gapc.svcover.nl/assets/thumbnails/banner.png"],
+    images: [
+      "https://filemanager.svcover.nl/images/resize?f=uploads%2Fprogramming_committee%2FGAPC%2FGAPC+Cover+Banner.png&w=1000",
+    ],
   },
 };
 
