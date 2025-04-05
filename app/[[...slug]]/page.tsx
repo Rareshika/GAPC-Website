@@ -1,6 +1,7 @@
 import { MemberList } from "@/components/molecules/member-list";
 import AboutUs from "@/components/templates/about-us";
 import { create, walk } from "@/lib/server_utils";
+import { X } from "lucide-react";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
@@ -26,6 +27,9 @@ const Page = async ({ params }: { params: { slug: string[] } }) => {
           <Image
             src={data.thumbnail}
             alt={data.title}
+            layout="responsive"
+            width={1920}
+            height={1080}
             className="object-cover w-full h-full blur-sm"
           />
         </div>
@@ -36,9 +40,53 @@ const Page = async ({ params }: { params: { slug: string[] } }) => {
         </div>
       </div>
       {!params.slug && (
-        <div className="mb-8">
-          <MemberList />
-        </div>
+        <>
+          <div className="mb-8">
+            <MemberList />
+          </div>
+
+          <div className="flex items-center justify-center flex-col w-full">
+            <div className="text-4xl font-semibold mb-4">
+              {" "}
+              Organizations Behind GAPC{" "}
+            </div>
+            <div className="w-full">
+              <div className="flex items-center justify-around w-full">
+                <a
+                  href="https://www.svcover.nl/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div>
+                    <Image
+                      src="/assets/cover_logo.png"
+                      alt="Image for the FCG committee"
+                      height={200}
+                      width={300}
+                    />
+                  </div>
+                </a>
+                <div className="w-15 h-15">
+                  <X size={60} />
+                </div>
+                <div>
+                  <a
+                    href="https://www.svcover.nl/committees/programming_committee"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="/assets/fcg.png"
+                      alt="Image for the FCG committee"
+                      height={200}
+                      width={300}
+                    />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </>
       )}
     </>
   );

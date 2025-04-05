@@ -20,7 +20,13 @@ export const NavBar: FC = async () => {
       <div className="w-full max-w-5xl flex gap-4 items-center text-gray-100 max-lg:px-4 max-lg:max-w-full">
         <Link className="flex-1" href="/">
           <div className="flex flex-col items-start gap-1">
-            <Image src="/assets/logo.png" alt="logo" className="h-10" />
+            <Image
+              src="/assets/logo.png"
+              alt="logo"
+              className="h-10"
+              width={80}
+              height={40}
+            />
             <span className="text-sm font-jbMono">GAPC 2025</span>
           </div>
         </Link>

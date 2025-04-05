@@ -4,7 +4,7 @@ title: Volunteer
 
 ## Why Volunteer?
 
-Volunteering for the GAPC is a fantastic way to contribute to the competitive programming community. As a volunteer, you'll:
+Volunteering for the GAPC is a fantastic way to contribute to the competitive programming community. As a volunteer, you will:
 
 - Help ensure the event runs smoothly and efficiently.
 - Gain hands-on experience in event organization.

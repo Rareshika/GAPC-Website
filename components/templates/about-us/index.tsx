@@ -13,6 +13,8 @@ const AboutUs = () => {
         <Image
           src="/assets/logo.png"
           alt="About Us"
+          width={320}
+          height={100}
           className="w-80 object-contain max-sm:w-60"
         />
         <span className="text-white text-center block font-jbMono text-9xl max-sm:text-5xl backdrop-blur-sm">

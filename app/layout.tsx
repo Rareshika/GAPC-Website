@@ -10,18 +10,23 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "GAPC 2025",
-  description:
-    "The 2025 edition of the Groningen Algorithmic Programming Competition",
+  description: "The programming competition organized in Groningen!",
+  applicationName: "gapc2025website",
   openGraph: {
-    type: "website",
+    type: "article",
     locale: "en_US",
     url: "https://gapc.svcover.nl/",
     title: "Groningen Algorithmic Programming Competition 2025",
-    description:
-      "The 2025 edition of the Groningen Algorithmic Programming Competition",
+    description: "The programming competition organized in Groningen!",
+    siteName: "GAPC 2025 Name",
     images: [
       "https://filemanager.svcover.nl/images/resize?f=uploads%2Fprogramming_committee%2FGAPC%2FGAPC+Cover+Banner.png&w=1000",
     ],
+    emails: ["programming_committee@svcover.nl"],
+    countryName: "The Netherlands",
+  },
+  icons: {
+    icon: "/favicon.ico",
   },
 };
 
@@ -34,15 +39,6 @@ export default function RootLayout({
     <html lang="en">
       <Head>
         <link rel="icon" type="image/png" href="/favicon.ico" />
-
-        <meta name="og:title" content="GAPC 2025" />
-        <meta name="og:type" content="programming_competition" />
-
-        <meta name="og:url" content="https://gapc.svcover.nl/" />
-        <meta
-          name="og:image"
-          content="https://filemanager.svcover.nl/images/resize?f=uploads%2Fprogramming_committee%2FGAPC%2FGAPC+Cover+Banner.png&w=1000"
-        />
 
         <meta name="og:site_name" content="GAPC 2025 Name" />
         <meta

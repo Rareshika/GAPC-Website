@@ -24,8 +24,7 @@ const PreviewCardProject: FC<PreviewCardProjectProps> = ({ post }) => {
           <Image
             src={post.thumbnail || "/assets/placeholder.png"}
             alt={post.title}
-            width={500}
-            height={300}
+            height={80}
             // layout="responsive"
             className="z-10 object-cover w-full h-20 max-lg:h-24 max-sm:h-20"
           />
