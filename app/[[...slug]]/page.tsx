@@ -66,6 +66,7 @@ const Page = async ({ params }: { params: { slug: string[] } }) => {
                     />
                   </div>
                 </a>
+
                 <div className="w-15 h-15">
                   <X size={60} />
                 </div>
@@ -78,6 +79,19 @@ const Page = async ({ params }: { params: { slug: string[] } }) => {
                     <Image
                       src="/assets/fcg.png"
                       alt="Image for the FCG committee"
+                      height={200}
+                      width={300}
+                    />
+                  </a>
+
+                  <a
+                    href="https://researchable.nl/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <Image
+                      src="/assets/sponsors/researchable.png"
+                      alt="Image for Researchable"
                       height={200}
                       width={300}
                     />
