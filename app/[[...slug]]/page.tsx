@@ -66,7 +66,6 @@ const Page = async ({ params }: { params: { slug: string[] } }) => {
                     />
                   </div>
                 </a>
-
                 <div className="w-15 h-15">
                   <X size={60} />
                 </div>
@@ -83,6 +82,7 @@ const Page = async ({ params }: { params: { slug: string[] } }) => {
                       width={300}
                     />
                   </a>
+                </div>
               </div>
             </div>
           </div>
