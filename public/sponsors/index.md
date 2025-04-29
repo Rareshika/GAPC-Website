@@ -5,7 +5,13 @@ thumbnail: /assets/thumbnails/money.jpeg
 
 ## Sponsors
 
-Coming soon for 2025
+ <div className='w-full flex flex-col justify-center gap-6 p-5 md:flex-row'>
+    <div className='p-2 md:h-24'>
+        <a href="https://researchable.nl">
+        <img src="/assets/sponsors/researchable.png" alt="Researchabe logo" width="600" height="auto">
+        </a>
+    </div>
+</div>
 
 <br>
 

@@ -84,22 +84,6 @@ const Page = async ({ params }: { params: { slug: string[] } }) => {
                     />
                   </a>
               </div>
-              <div className="mt-8 w-full flex justify-center">
-                <a
-                  href="https://researchable.nl/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full max-w-screen-xl"
-                >
-                  <Image
-                    src="/assets/sponsors/researchable.png"
-                    alt="Image for Researchable"
-                    layout="responsive"
-                    width={1920}
-                    height={1080}
-                  />
-                </a>
-              </div>
             </div>
           </div>
         </>
