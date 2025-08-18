@@ -1,5 +1,13 @@
 # Archive of previous contests
 
+## 2025
+
+- [Final standings](/assets/2025/final_standings/index.html)
+- [Problem set](/assets/2025/problems/contest.en.pdf)
+- [Solutions](/assets/2025/problems/solutions.en.pdf)
+- [Test cases](/assets/2025/problems/gapc2025.zip)
+- [Photos](https://www.svcover.nl/photos/1663)
+
 ## 2024
 
 - [Final standings](/assets/2024/final_standings/index.html)

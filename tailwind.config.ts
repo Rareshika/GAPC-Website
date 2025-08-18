@@ -21,6 +21,7 @@ const config = {
     extend: {
       backgroundImage: {
         swirl: "url('/assets/background.svg')",
+        "swirl-new": "url('/assets/background-new.svg')",
       },
       fontFamily: {
         jbMono: ["JetBrains Mono", "monospace"],
