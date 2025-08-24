@@ -124,7 +124,7 @@ const AboutUs = () => {
             style={{ transitionDuration: `${animationDuration}ms` }}
             onClick={() => window.open("/archive", "_blank")}
           >
-            We're gearing up for the next edition!
+            We are gearing up for the next edition!
           </Button>
         </div>
       </div>
