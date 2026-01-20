@@ -5,7 +5,7 @@ thumbnail: /assets/thumbnails/lecture.png
 
 ## Contest schedule
 
-The event will take place on the Saturday 3rd of May.
+The event will take place on Saturday, 25th of April 2026
 
 All time is relative to Groningen, Netherlands (GMT+2)
 
